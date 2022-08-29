@@ -20,7 +20,7 @@ while True:
             if id == 1:
                 screen_x = int(landmark.x * screen_w)
                 screen_y = int(landmark.y * screen_h)
-                pyautogui.moveTo(screen_x, screen_y, 2, pyautogui.easeOutQuad)
+                pyautogui.moveTo(screen_x, screen_y)
         left = [landmarks[145], landmarks[159]]
         for landmark in left:
             x = int(landmark.x * frame_w)
